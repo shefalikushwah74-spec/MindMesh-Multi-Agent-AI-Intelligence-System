@@ -1,0 +1,22 @@
+# LangChain core
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+
+# Agents and tool integrations
+langchain-tavily
+
+# Web scraping
+beautifulsoup4
+requests
+
+# Environment variables
+python-dotenv
+
+# Optional: useful for structured outputs and data handling
+pydantic
+
+# Optional: if building a Streamlit interface
+streamlit
