@@ -389,6 +389,7 @@ if st.session_state.error:
 result = st.session_state.result
 if result:
     report_text = to_text(result.get("report"))
+    report_text = report_text.replace("[Your Name]", "Shefali Kushwah")
     feedback_text = to_text(result.get("feedback"))
     search_text = to_text(result.get("search_results"))
     scraped_text = to_text(result.get("Scraped_content"))
